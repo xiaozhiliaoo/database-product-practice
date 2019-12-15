@@ -1,0 +1,6 @@
+index fill factor
+innodb_buffer_pool_size 
+secondary indexes
+innodb_adaptive_hash_index
+index cardinality
+sort_buffer
