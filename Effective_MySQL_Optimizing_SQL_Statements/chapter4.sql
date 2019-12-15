@@ -64,5 +64,17 @@ ALTER TABLE album ADD INDEX(name);
 SELECT al.name,ar.name,al.first_released FROM album al INNER JOIN artist ar USING(artist_id) WHERE al.name='lili' ORDER BY al.first_released;
 ALTER TABLE album ADD INDEX name_release(name,first_released); -- no filesort
 
+SET @@SESSION.optimizer_switch='index_merge_intersection=on';
+SELECT artist_id,name from artist WHERE name='lili' OR founded ='1993';
+
+SELECT al.name,ar.name,al.first_released FROM album al INNER JOIN artist ar USING(artist_id) WHERE al.name='lili' ORDER BY al.first_released;
+EXPLAIN SELECT STRAIGHT_JOIN al.name,ar.name,al.first_released FROM album al INNER JOIN artist ar USING(artist_id) WHERE al.name='lili' ORDER BY al.first_released;
+SELECT artist_id,name,country_id FROM artist WHERE founded='1993' AND type='Person';
+EXPLAIN SELECT artist_id,name,country_id FROM artist USE INDEX(FOUNDED) WHERE founded='1993' AND type='Person';
+
+
+
+
+
 
 
