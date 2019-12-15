@@ -15,6 +15,7 @@ https://github.com/facebookincubator/OnlineSchemaChange
 https://www.cnblogs.com/davygeek/p/7021099.html
 Partial Index
 mysql PGA&SGA reference: https://planet.mysql.com/entry/?id=17857
+https://www.cnblogs.com/fuyuntao/p/6700313.html
 https://dev.mysql.com/doc/refman/8.0/en/memory-use.html
 https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html
 https://dev.mysql.com/doc/refman/8.0/en/show-engine.html
@@ -30,6 +31,8 @@ https://dev.mysql.com/doc/refman/8.0/en/numeric-type-overview.html
 https://dev.mysql.com/doc/refman/8.0/en/integer-types.html
 https://dev.mysql.com/doc/refman/8.0/en/char.html
 http://ronaldbradford.com/blog/the-rat-and-the-cat-2006-08-24/
+https://dev.mysql.com/doc/refman/8.0/en/execution-plan-information.html
+https://www.slideshare.net/ronaldbradford/top-20-design-tips-for-mysql-data-architects-presentation/2-The_Top_20_Design_Tips1
 
 
 
