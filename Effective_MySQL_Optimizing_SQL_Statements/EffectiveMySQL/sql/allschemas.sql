@@ -18,7 +18,7 @@ FROM     information_schema.tables
 GROUP BY table_schema
 ORDER BY 2 DESC;
 
--- 统计数据库所有shcema存储引擎的种类
+-- 统计数据库所有schema存储引擎的种类
 SELECT   table_schema,engine,table_collation,
          COUNT(*) AS tables
 FROM     information_schema.tables
