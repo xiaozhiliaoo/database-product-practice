@@ -1,2 +1,2 @@
-# mysql-practice-
+# mysql-practice
 mysql-practice
