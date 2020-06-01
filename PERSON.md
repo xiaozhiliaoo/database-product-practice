@@ -73,4 +73,9 @@ select event_name, count_alloc, count_free,CURRENT_NUMBER_OF_BYTES_USED/1024/102
    show processlist;
    explain for connection 18;
    
-   
+SELECT NAME, COMMENT FROM INFORMATION_SCHEMA.INNODB_METRICS WHERE NAME LIKE '%ibuf%'\G
+
+SELECT @@default_storage_engine;
+
+SHOW TABLE STATUS FROM sakila like '%staff%'  \G;
+
