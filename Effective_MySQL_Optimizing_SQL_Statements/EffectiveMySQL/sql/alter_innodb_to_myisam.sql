@@ -1,4 +1,0 @@
-SELECT GROUP_CONCAT('ALTER TABLE ',table_schema,'.',table_name, ' ENGINE=InnoDB' SEPARATOR ';') AS stmt
-FROM INFORMATION_SCHEMA.TABLES
-WHERE engine='InnoDB';
-
