@@ -6,15 +6,19 @@ include mysql,postgresql,tidb,sqlite and more. practice,learning. include book,n
 
 ## Book
 
-[Book](/book)
+[Book](./book)
 
 ## Conference
 
-[Conference](/conference)
+[Conference](./conference)
 
 ## Course
 
-[Course](/course)
+[Course](./course)
+
+## Slides
+
+[Slides](./slides)
 
 ## Reference NoSQL DataBase
 
